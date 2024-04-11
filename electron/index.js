@@ -15,8 +15,9 @@ const createWindow = () => {
     slashes: true
   })
 
-  win.loadURL(startUrl);
+  win.loadURL(startUrl)
 
+  win.setMenu(null)
   //win.webContents.openDevTools()
 }
 
